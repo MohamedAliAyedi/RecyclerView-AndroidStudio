@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="227dp"
+            android:layout_height="57dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="163dp"
+            android:layout_marginBottom="136dp"
+            android:paddingLeft="12dp"
+            android:paddingTop="12dp"
+            android:text="TextView"
+            android:textSize="20dp"
+            tools:text="Mohamed Ali Ayadi" />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="76dp"
+            android:layout_marginEnd="34dp"
+            android:layout_marginBottom="52dp"
+            android:paddingLeft="20dp"
+            android:text="Hello Guys that's my first project using Recycler View i write that again cause i deleted him i hope he work :)"
+            android:textSize="15dp" />
+    </RelativeLayout>
+</LinearLayout>
